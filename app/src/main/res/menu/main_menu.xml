@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="always"
+        android:id="@+id/mnuAdd"
+        android:title="Thêm mới">
+    </item>
+    <item
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        android:id="@+id/mnuSearch"
+       android:title="Tìm kiếm" >
+
+    </item>
+<item
+    android:id="@+id/mnuSetting"
+    android:title="Settings">
+    <menu>
+        <item
+            android:id="@+id/mnuLogin"
+            android:title="Login">
+        </item>
+        <item
+            android:id="@+id/mnuLogOut"
+            android:title="LogOut">
+        </item>
+    </menu>
+</item>
+    <item
+        android:id="@+id/mnuFeedBack"
+        android:title="FeedBack">
+    </item>
+    <item
+        android:id="@+id/mnuHelp"
+        android:title="Help">
+
+    </item>
+</menu>
